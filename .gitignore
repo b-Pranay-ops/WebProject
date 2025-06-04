@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/java,jsonnet,mdbook,text
-# Edit at https://www.toptal.com/developers/gitignore?templates=java,jsonnet,mdbook,text
+# Created by https://www.toptal.com/developers/gitignore/api/java,mdbook,text,visualstudiocode,microsoftoffice
+# Edit at https://www.toptal.com/developers/gitignore?templates=java,mdbook,text,visualstudiocode,microsoftoffice
 
 ### Java ###
 # Compiled class file
@@ -27,14 +27,30 @@
 hs_err_pid*
 replay_pid*
 
-### Jsonnet ###
-# Dependency directories
-vendor/
-
-
 ### MdBook ###
 book
 
+
+### MicrosoftOffice ###
+*.tmp
+
+# Word temporary
+~$*.doc*
+
+# Word Auto Backup File
+Backup of *.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd*
 
 ### Text ###
 *.doc
@@ -46,4 +62,23 @@ book
 *.wpd
 *.wps
 
-# End of https://www.toptal.com/developers/gitignore/api/java,jsonnet,mdbook,text
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/java,mdbook,text,visualstudiocode,microsoftoffice
